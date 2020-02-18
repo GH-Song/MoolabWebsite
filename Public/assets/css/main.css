@@ -197,10 +197,17 @@ input, select, textarea {
 		}
 
 			h1.major:after {
+<<<<<<< Updated upstream
 				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+=======
+				background-image: -moz-linear-gradient(to right, #181c28/*#5e42a6*/, #ffffff/*흰색으로*//*#b74e91*/);
+				background-image: -webkit-linear-gradient(to right, #181c28/*#5e42a6*/, #ffffff/*흰색으로*//*#b74e91*/);
+				background-image: -ms-linear-gradient(to right, #181c28/*#5e42a6*/, #ffffff/*흰색으로*//*#b74e91*/);
+				background-image: linear-gradient(to right, #181c28/*#5e42a6*/, #ffffff/*흰색으로*//*#b74e91*/);
+>>>>>>> Stashed changes
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -2444,7 +2451,11 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
+<<<<<<< Updated upstream
 			color: #b74e91;
+=======
+			color: #ffffff/*흰색으로*//*#b74e91*/;
+>>>>>>> Stashed changes
 			content: '\f00c';
 		}
 
@@ -2552,7 +2563,11 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
+<<<<<<< Updated upstream
 					color: #b74e91;
+=======
+					color: #ffffff/*흰색으로*//*#b74e91*/;
+>>>>>>> Stashed changes
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -3256,7 +3271,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
+<<<<<<< Updated upstream
 			background-color: #b74e91;
+=======
+			background-color: #ffffff/*흰색으로*//*#b74e91*/;
+>>>>>>> Stashed changes
 		}
 
 		.wrapper.style3-alt {
@@ -3765,10 +3784,17 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:after {
+<<<<<<< Updated upstream
 				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+=======
+				background-image: -moz-linear-gradient(to right, #181c28/*#5e42a6*/, #ffffff/*흰색으로*//*#b74e91*/);
+				background-image: -webkit-linear-gradient(to right, #181c28/*#5e42a6*/, #ffffff/*흰색으로*//*#b74e91*/);
+				background-image: -ms-linear-gradient(to right, #181c28/*#5e42a6*/, #ffffff/*흰색으로*//*#b74e91*/);
+				background-image: linear-gradient(to right, #181c28/*#5e42a6*/, #ffffff/*흰색으로*//*#b74e91*/);
+>>>>>>> Stashed changes
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3857,7 +3883,11 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
+<<<<<<< Updated upstream
 							background-color: #b74e91;
+=======
+							background-color: #ffffff/*흰색으로*//*#b74e91*/;
+>>>>>>> Stashed changes
 						}
 
 		}
