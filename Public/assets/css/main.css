@@ -98,6 +98,7 @@ input, select, textarea {
 	}
 
 	body {
+		background: #000000/*312450*/;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -196,6 +197,12 @@ input, select, textarea {
 		}
 
 			h1.major:after {
+<<<<<<< HEAD
+				background-image: -moz-linear-gradient(to right, #181c28/*#5e42a6*/, #fdfdfd/*#b74e91*/);
+				background-image: -webkit-linear-gradient(to right, #181c28/*#5e42a6*/, #fdfdfd/*#b74e91*/);
+				background-image: -ms-linear-gradient(to right, #181c28/*#5e42a6*/, #fdfdfd/*#b74e91*/);
+				background-image: linear-gradient(to right, #181c28/*#5e42a6*/, #fdfdfd/*#b74e91*/);
+=======
 <<<<<<< Updated upstream
 				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
@@ -207,6 +214,7 @@ input, select, textarea {
 				background-image: -ms-linear-gradient(to right, #181c28/*#5e42a6*/, #ffffff/*흰색으로*//*#b74e91*/);
 				background-image: linear-gradient(to right, #181c28/*#5e42a6*/, #ffffff/*흰색으로*//*#b74e91*/);
 >>>>>>> Stashed changes
+>>>>>>> master
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -1921,6 +1929,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
+			color: #000000/*312450*/ !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2361,6 +2370,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
+			background: #000000/*312450*/;
 		}
 
 		select:focus::-ms-value {
@@ -2448,11 +2458,15 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
+<<<<<<< HEAD
+			color: #fdfdfd/*#b74e91*/;
+=======
 <<<<<<< Updated upstream
 			color: #b74e91;
 =======
 			color: #ffffff/*흰색으로*//*#b74e91*/;
 >>>>>>> Stashed changes
+>>>>>>> master
 			content: '\f00c';
 		}
 
@@ -2533,6 +2547,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
+			color: #000000/*312450*/;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2543,6 +2558,7 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
+					color: #181c28/*#5e42a6*/;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
@@ -2558,11 +2574,15 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
+<<<<<<< HEAD
+					color: #fdfdfd/*#b74e91*/;
+=======
 <<<<<<< Updated upstream
 					color: #b74e91;
 =======
 					color: #ffffff/*흰색으로*//*#b74e91*/;
 >>>>>>> Stashed changes
+>>>>>>> master
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -3542,6 +3562,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
+		background: #000000/*312450*/;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3782,6 +3803,12 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:after {
+<<<<<<< HEAD
+				background-image: -moz-linear-gradient(to right, #181c28/*#5e42a6*/, #fdfdfd/*#b74e91*/);
+				background-image: -webkit-linear-gradient(to right, #181c28/*#5e42a6*/, #fdfdfd/*#b74e91*/);
+				background-image: -ms-linear-gradient(to right, #181c28/*#5e42a6*/, #fdfdfd/*#b74e91*/);
+				background-image: linear-gradient(to right, #181c28/*#5e42a6*/, #fdfdfd/*#b74e91*/);
+=======
 <<<<<<< Updated upstream
 				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
@@ -3793,6 +3820,7 @@ input, select, textarea {
 				background-image: -ms-linear-gradient(to right, #181c28/*#5e42a6*/, #ffffff/*흰색으로*//*#b74e91*/);
 				background-image: linear-gradient(to right, #181c28/*#5e42a6*/, #ffffff/*흰색으로*//*#b74e91*/);
 >>>>>>> Stashed changes
+>>>>>>> master
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3881,11 +3909,15 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
+<<<<<<< HEAD
+							background-color: #fdfdfd/*#b74e91*/;
+=======
 <<<<<<< Updated upstream
 							background-color: #b74e91;
 =======
 							background-color: #ffffff/*흰색으로*//*#b74e91*/;
 >>>>>>> Stashed changes
+>>>>>>> master
 						}
 
 		}
@@ -3934,3 +3966,4 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
+		}
